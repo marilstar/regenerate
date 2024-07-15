@@ -1,0 +1,12 @@
+import numpy as np
+
+# Step 1: Generate an array of 500 initial data points
+initial_data = np.random.rand(500)  # Random data between 0 and 1
+
+# Step 2: Apply a 2x donation factor
+donation_factor = 2
+regenerated_data = initial_data * donation_factor
+
+# Display the initial and regenerated data for verification
+print("Initial Data:", initial_data)
+print("Regenerated Data:", regenerated_data)
